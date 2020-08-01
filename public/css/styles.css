@@ -1,0 +1,151 @@
+.background {
+  height: 100vh;
+  background: url("../images/SOCB12.png") center center no-repeat;
+  background-size: cover;
+  overflow-y: scroll;
+  background-attachment: fixed;
+}
+
+.lead {
+  min-height: 720px;
+  text-align: center;
+}
+
+.lead-head {
+  font-size: 3rem;
+  color: #fa7d09;
+}
+
+hr {
+  width: 800px;
+  margin: auto;
+  border-color: black;
+  border-width: thick;
+}
+
+.events-head {
+  font-size: 2.5rem;
+  color: #fa7d09;
+  text-align: center;
+  margin: 0 auto 40px;
+}
+
+.about-head {
+  font-size: 2.5rem;
+  color: #fa7d09;
+  text-align: center;
+  margin: 4% auto 1%;
+}
+
+.about-body {
+  margin: 0 5% 5%;
+  color: #fa7d09;
+  font-size: 1.5rem;
+}
+
+.event-btn {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 2% auto 0;
+}
+
+.footer {
+  font-size: 2rem;
+  text-align: center;
+  color: #fa7d09;
+  padding-top: 1px;
+  margin-bottom: 0;
+}
+
+.footer-head {
+  margin: 1% auto 0;
+  font-weight: lighter;
+}
+
+.icon {
+  font-size: 1.5rem;
+  margin: 0 0.7% 0;
+  color: #fa7d09;
+}
+
+.icon:hover {
+  color: #2f2519;
+}
+
+.contact {
+  font-size: 1.5rem;
+  display: inline-block;
+  color: #fa7d09;
+  text-decoration: none;
+  margin: 1% 2%;
+}
+
+.contact:hover {
+  color: #2f2519;
+  text-decoration: none;
+}
+
+/* Feedback Page */
+
+/* .App {
+  font-family: sans-serif;
+  text-align: center;
+} */
+
+.Feedback-SOC-Content {
+  margin-top: 100px;
+}
+.align-center {
+  margin: 10px auto;
+}
+
+.profile-resize {
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 80%;
+}
+
+.card {
+  border-width: 0;
+  margin: 30px auto;
+  width: 18rem;
+}
+
+.img-resize {
+  width: 3%;
+  margin: 0 20px;
+}
+
+/* .d-flex {
+  margin: 0 100px;
+} */
+
+/* #root {
+  background-color: #252525;
+} */
+
+/* .back-to-top {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  display: none;
+} */
+
+.sport-icon {
+  width: 65%;
+}
+
+/* .scrollToTop {
+  position: fixed;
+  bottom: 25px; 
+  right: 25px;
+  display: none;
+} */
+.scrollTop-img {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+}
