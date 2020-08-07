@@ -149,3 +149,77 @@ hr {
   bottom: 25px;
   right: 25px;
 }
+
+/* styles for /feedback */
+.feedback {
+  margin: 90px auto auto;
+  padding-left: 3%;
+}
+.feedback-h1 {
+  font-family: 'Pacifico', cursive;
+}
+.feedback-h2 {
+  font-family: 'Oswald', sans-serif;
+  margin: 3% 0 2% 5%;
+}
+.feedback-form-wrap {
+  background-color: #fa7d09;
+  border-radius: 30px;
+  color: black;
+  margin: 1% 10%;
+  padding: 3% 2% 2%;
+  width: 65%;
+}
+.feedback-label {
+  margin-left: 2%;
+}
+.feedback-input {
+  border: none;
+  border-radius: 30px;
+  margin: 0 0 2% 10%;
+}
+.feedback-textarea {
+  border: none;
+  border-radius: 30px;
+  padding: 5% 0 0 4%;
+  width: 100%;
+}
+.feedback-submit {
+  margin: 1% 0 2% 35%;
+}
+.feedback-submit:hover {
+  background-color: #fa7d09;
+}
+.feedback-email-error {
+  margin: 0 0 0 30%;
+  background-color: black;
+  color: white;
+}
+.feedback-hide {
+  display: none;
+}
+@media (max-width: 680px) {
+  .feedback-h1, .feedback-h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 825px) {
+  .feedback {
+    width: 80%
+  }
+}
+@media (min-width: 1100px) {
+  .feedback {
+    width: 70%
+  }
+}
+@media (min-width: 1200px) {
+  .feedback {
+    width: 60%
+  }
+}
+@media (min-width: 1340px) {
+  .feedback {
+    width: 50%
+  }
+}

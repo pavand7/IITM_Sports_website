@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const env = require("dotenv").config({path: __dirname + '/.env'})
 
 const app = express();
 
@@ -144,7 +145,8 @@ app.get("/gymkhana", function (req, res) {
 
 // FEEDBACK
 app.get('/feedback', function(req,res){
-  res.render('pages/Feedback.ejs')
+  formspreeURL = "https://formspree.io/" + env.parsed.FORMSPREE_ID;
+  res.render('pages/Feedback.ejs', {formspreeURL : formspreeURL});
 })
 
 app.listen(PORT, function () {
